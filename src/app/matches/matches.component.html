@@ -1,0 +1,28 @@
+<div class="container">
+    <br> <br>
+    <div class="row">
+        <div *ngFor="let match of matches" class="col-sm-6">
+            <div style="margin-bottom: 31px;" class="card text-center">
+                <div class="card-header">
+                    ICC T-20 Cricket Tournament
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">T20 ODI Match - {{match.match_no}}</h5>
+                    <div style="float: left;"><img [src]="match.team1_img" alt="image"
+                            style="width: 100px; height: 100px;">
+                        <p>{{match.team_1}}</p>
+                    </div>
+                    <div style="float: right;">
+                        <img [src]="match.team2_img" alt="image" style="width: 100px; height: 100px;">
+                        <p>{{match.team_2}}</p>
+                    </div>
+                    <img src="assets/images/vs.jpg" alt="image" style="width: 100px; height: 100px;">
+                    <br> <br> <br> <br>
+                    <button mat-raised-button color="primary" [routerLink]="['/match_summary', match.match_id]">
+                        View Summary
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,15 @@
+<div class="container">
+  <br>
+  <div class="row">
+    <div *ngFor="let team of teams" class="col-sm-6">
+      <div class="card bg-dark text-white">
+        <img class="card-img" [src]="team.team_img" style="height: 301px;" alt="Card image">
+        <div class="card-img-overlay">
+          <h5 class="card-title text-center">{{team.team_name}}</h5>
+             <br><br><br><br><br><br><br><br>
+          <div class="text-center"><button [routerLink]="['/team_profile', team.team_id]"  mat-raised-button color="primary">Team Profile</button></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

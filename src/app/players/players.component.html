@@ -1,0 +1,59 @@
+<div class="container">
+    <br><br> <br>
+    <div class=" container row">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page">Filter Player By Countries</li>
+            </ol>
+        </nav>
+        <select class="col-sm-3" (change)="selectCountry($event.target.value)" class="form-control">
+            <option value=" " selected="selected">--Select--</option>
+            <option *ngFor="let country of countries">
+                {{ country.country }}
+            </option>
+        </select>
+    </div>
+    <br>
+    <div class="card" *ngFor="let player of players">
+        <div *ngIf="players && players.length>0" class="card-body text-white"
+            style="background: linear-gradient(90deg,#0674d6,#06579f);">
+            <div class="row">
+                <div class="col-sm-3"> <img class="card-img" [src]="player.player_img" alt="Card image"></div>
+                <div class="col-sm-4">
+                    <h5 class="card-title ">{{player.player_name}}</h5>
+                    <ul>
+                        <li>
+                            Age :- {{player.age}}
+                        </li>
+                        <li>
+                            Batting Style :- {{player.batting_style}}
+                        </li>
+                        <li>
+                            Bowling Style :- {{player.bowling_style}}
+                        </li>
+                        <li>
+                            Nationality :-{{player.nationality}}
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-5">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <h5>Matches</h5><br>
+                            <b class="text"> {{player.matches}}</b>
+                        </div>
+                        <div class="col-sm-4">
+                            <h5>Runs</h5><br>
+                            <b class="text"> {{player.runs}}</b>
+                        </div>
+                        <div class="col-sm-4">
+                            <h5>Wickets</h5><br>
+                            <b class="text"> {{player.wickets}}</b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p *ngIf="players && players.length===0">No Record Found !</p>
+</div>

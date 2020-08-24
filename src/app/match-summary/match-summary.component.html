@@ -1,0 +1,57 @@
+<br>
+<div *ngIf="loaded">
+    <br>
+    <div class="container">
+        <div class="card-body card text-center text-white">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img [src]="summary.team1_img" alt="image" style="width: 100px; height: 100px;">
+                        </div>
+                        <div class="col-sm-6">
+                            <b>{{summary.team_1}}</b><br>
+                            <b class="score">{{summary.team1_score}}/{{summary.team1_wick}}</b><br>
+                            <b>Overs: {{summary.team1_overs}}/{{summary.total_overs}}</b><br>
+                            <b>{{summary.team_1}}</b>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <b>{{summary.team_2}}</b><br>
+                            <b class="score">{{summary.team2_score}}/{{summary.team2_wick}}</b><br>
+                            <b>Overs: {{summary.team2_overs}}/{{summary.total_overs}}</b><br>
+                            <b>{{summary.team_2}}</b>
+                        </div>
+                        <div class="col-sm-6">
+                            <img style="float: right;" [src]="summary.team2_img" alt="image"style="width: 100px; height: 100px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer text-white text-center">
+            {{summary.winner}} won this match by {{summary.win_diff}}
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-sm-6 ">
+                <div class="card1 text-white">
+                    <h5 class="card-header">Match Details</h5>
+                    <div class="card-body" style="line-height: 40px;">
+                        <b>Man of the Match: </b><span> {{summary.man_of_match}}</span><br>
+                        <b> Best Bowler:</b><span> {{summary.best_bowler}}</span><br>
+                        <b> Best Fielder:</b><span> {{summary.best_fielder}}</span><br>
+                        <b> Venue:</b><span> {{summary.venue}}</span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

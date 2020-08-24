@@ -1,0 +1,28 @@
+<div *ngIf="loaded">
+  <div class="card bg-dark text-white">
+    <img class="card-img" [src]="profile.team_img" style="height: 400px;" alt="Card image">
+    <div class="card-img-overlay">
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active" aria-current="page">ICC Ranking - {{profile.team_name}}</li>
+      </ol>
+    </nav>
+    <div class="row">
+      <div class="card" class="col-sm-4" *ngFor="let rank of profile.icc_ranking">
+        <div class="card-body text-white " style="background: linear-gradient(90deg,#0674d6,#06579f);">
+          <button mat-raised-button color="accent" matBadgeColor="accent"> {{rank.format}}</button>
+          <div class="text-center">
+            <b class="text-white" style="font-size: 50px;">{{rank.position}}</b><br>
+            <b class="text-white">Rating - {{rank.rating}}</b><br>
+            <b class="text-white">Points - {{rank.points}}</b>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br><br><br>
+</div>

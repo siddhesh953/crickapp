@@ -1,0 +1,373 @@
+{
+  "countries": [
+    {
+      "country_id": 1,
+      "country": "India"
+    },
+    {
+      "country_id": 2,
+      "country": "South Africa"
+    },
+    {
+      "country_id": 3,
+      "country": "Australia"
+    },
+    {
+      "country_id": 4,
+      "country": "England"
+    }
+  ],
+  "matches": [
+    {
+      "match_id": 1,
+      "match_no": "1",
+      "team_1": "India",
+      "team_2": "Australia",
+      "venue": "Mumbai",
+      "team1_img": "assets/images/India/ind.png",
+      "team2_img": "assets/images/aus/aus.png"
+    },
+    {
+      "match_id": 2,
+      "match_no": "2",
+      "team_1": "England",
+      "team_2": "South Africa",
+      "venue": "Chennai",
+      "team1_img": "assets/images/eng/eng.png",
+      "team2_img": "assets/images/africa/africa.png"
+    },
+    {
+      "match_id": 3,
+      "match_no": "3",
+      "team_1": "India",
+      "team_2": "England",
+      "venue": "Mohali",
+      "team1_img": "assets/images/India/ind.png",
+      "team2_img": "assets/images/eng/eng.png"
+    }
+  ],
+  "match_sum": [
+    {
+      "matchsum_id": 1,
+      "match_no": "1",
+      "team_1": "India",
+      "team_2": "Australia",
+      "venue": "Mumbai",
+      "team1_score": "180",
+      "team1_overs": "15",
+      "team1_wick": "5",
+      "team2_score": "168",
+      "team2_wick": "6",
+      "team2_overs": "20",
+      "winner": "India",
+      "bat_first":"India",
+      "loser": "Australia",
+      "best_bowler": "Jaspreet bumrah",
+      "man_of_match": "Rohit sharma",
+      "best_fielder": "Hardik pandya",
+      "team1_img": "assets/images/India/ind.png",
+      "team2_img": "assets/images/aus/aus.png",
+      "total_overs": "20"
+    },
+    {
+      "matchsum_id": 2,
+      "match_no": "2",
+      "team_1": "England",
+      "team_2": "South Africa",
+      "venue": "Chennai",
+      "team1_score": "176",
+      "team1_overs": "15",
+      "team1_wick": "5",
+      "team2_score": "175",
+      "team2_wick": "6",
+      "team2_overs": "20",
+      "winner": "England",
+      "loser": "South Africa",
+      "best_bowler": "Kagiso Rabada",
+      "man_of_match": "Eoin Morgan",
+      "best_fielder": "Ben Stokes",
+      "team1_img": "assets/images/eng/eng.png",
+      "team2_img": "assets/images/africa/africa.png",
+      "total_overs": "20"
+    },
+    {
+      "matchsum_id": 3,
+      "match_no": "3",
+      "team_1": "India",
+      "team_2": "England",
+      "venue": "Mohali",
+      "team1_score": "121",
+      "team1_overs": "15",
+      "team1_wick": "5",
+      "team2_score": "120",
+      "team2_wick": "6",
+      "team2_overs": "20",
+      "winner": "India",
+      "loser": "England",
+      "best_bowler": "Jaspreet bumrah",
+      "man_of_match": "Rohit sharma",
+      "best_fielder": "Hardik pandya",
+      "team1_img": "assets/images/India/ind.png",
+      "team2_img": "assets/images/eng/eng.png",
+      "total_overs": "20"
+    }
+  ],
+  "players": [
+    {
+      "player_id": 1,
+      "player_name": "Virat Kohli",
+      "age": "28",
+      "player_img": "assets/images/India/kohli_india.png",
+      "nationality": "India",
+      "role": "Batsmen",
+      "debut_yr": "16",
+      "batting_style": "Right handed",
+      "bowling_style": "Right arm",
+      "matches": "123",
+      "runs": "1231",
+      "wickets": "5"
+    },
+    {
+      "player_id": 2,
+      "player_name": "Jasprit Bumrah",
+      "age": "28",
+      "player_img": "assets/images/India/bumrah_india.png",
+      "nationality": "India",
+      "role": "Bowler",
+      "debut_yr": "18",
+      "batting_style": "Right handed",
+      "bowling_style": "Right arm",
+      "matches": "123",
+      "runs": "123",
+      "wickets": "55"
+    },
+    {
+      "player_id": 3,
+      "player_name": "Ravindra Jadeja",
+      "age": "28",
+      "player_img": "assets/images/India/jadeja_india.png",
+      "nationality": "India",
+      "role": "Bowler",
+      "debut_yr": "20",
+      "batting_style": "Right handed",
+      "bowling_style": "Right arm",
+      "matches": "123",
+      "runs": "123",
+      "wickets": "55"
+    },
+    {
+      "player_id": 4,
+      "player_name": "Kagiso Rabada",
+      "age": "28",
+      "player_img": "assets/images/africa/rabada.png",
+      "nationality": "South Africa",
+      "role": "Bowler",
+      "debut_yr": "20",
+      "batting_style": "Right handed",
+      "bowling_style": "Right arm",
+      "matches": "123",
+      "runs": "123",
+      "wickets": "55"
+    },
+    {
+      "player_id": 5,
+      "player_name": "Quinton de Kok",
+      "age": "28",
+      "player_img": "assets/images/africa/dekok.png",
+      "nationality": "South Africa",
+      "role": "Batsman/Keeper",
+      "debut_yr": "21",
+      "batting_style": "Left handed",
+      "bowling_style": "Right arm",
+      "matches": "123",
+      "runs": "123",
+      "wickets": "55"
+    }
+  ],
+  "teams": [
+    {
+      "team_id": 1,
+      "team_name": "India",
+      "team_img": "assets/images/India/team_india.jpg",
+      "country": "India"
+    },
+    {
+      "team_id": 2,
+      "team_name": "Australia",
+      "team_img": "assets/images/aus/aus_team.jpg",
+      "country": "Australia"
+    },
+    {
+      "team_id": 3,
+      "team_name": "England",
+      "team_img": "assets/images/eng/eng_team.jpg",
+      "country": "Australia"
+    },
+    {
+      "team_id": 4,
+      "team_name": "South Africa",
+      "team_img": "assets/images/africa/africa_team.jpg",
+      "country": "Australia"
+    }
+  ],
+  "team_profile": [
+    {
+      "teamProfile_id": 1,
+      "team_name": "India",
+      "team_img": "assets/images/India/team_india.png",
+      "country": "India",
+      "icc_ranking": [
+        {
+          "ranking_id": 1,
+          "position": "1st",
+          "rating": "1112",
+          "points": "3435",
+          "format": "ODI"
+        },
+        {
+          "ranking_id": 2,
+          "position": "1st",
+          "rating": "1112",
+          "points": "3435",
+          "format": "Test"
+        },
+        {
+          "ranking_id": 3,
+          "position": "1st",
+          "rating": "1112",
+          "points": "3435",
+          "format": "T20"
+        }
+      ]
+    },
+    {
+      "teamProfile_id": 2,
+      "team_name": "Australia",
+      "team_img": "assets/images/aus/aus_team.jpg",
+      "country": "Australia",
+      "icc_ranking": [
+        {
+          "ranking_id": 1,
+          "position": "2nd",
+          "rating": "1106",
+          "points": "3430",
+          "format": "ODI"
+        },
+        {
+          "ranking_id": 2,
+          "position": "2nd",
+          "rating": "1111",
+          "points": "3331",
+          "format": "Test"
+        },
+        {
+          "ranking_id": 3,
+          "position": "2nd",
+          "rating": "1110",
+          "points": "3233",
+          "format": "T20"
+        }
+      ]
+    },
+    {
+      "teamProfile_id": 3,
+      "team_name": "England",
+      "team_img": "assets/images/eng/eng_team.jpg",
+      "country": "England",
+      "icc_ranking": [
+        {
+          "ranking_id": 1,
+          "position": "3rd",
+          "rating": "945",
+          "points": "2145",
+          "format": "ODI"
+        },
+        {
+          "ranking_id": 2,
+          "position": "3rd",
+          "rating": "1000",
+          "points": "2564",
+          "format": "Test"
+        },
+        {
+          "ranking_id": 3,
+          "position": "3rd",
+          "rating": "989",
+          "points": "2365",
+          "format": "T20"
+        }
+      ]
+    },
+    {
+      "teamProfile_id": 4,
+      "team_name": "South Africa",
+      "team_img": "assets/images/africa/africa_team.jpg",
+      "country": "South Africa",
+      "icc_ranking": [
+        {
+          "ranking_id": 1,
+          "position": "3rd",
+          "rating": "948",
+          "points": "2555",
+          "format": "ODI"
+        },
+        {
+          "ranking_id": 2,
+          "position": "5th",
+          "rating": "757",
+          "points": "2456",
+          "format": "Test"
+        },
+        {
+          "ranking_id": 3,
+          "position": "6th",
+          "rating": "709",
+          "points": "1545",
+          "format": "T20"
+        }
+      ]
+    }
+  ],
+  "tournament_table": [
+    {
+      "tournament_id": 1,
+      "team_name": "India",
+      "position": "1st",
+      "total_matches": "2",
+      "win": "2",
+      "lose": "0",
+      "pts": "10",
+      "nrr": "+8.00"
+    },
+    {
+      "tournament_id": 2,
+      "team_name": "England",
+      "position": "2nd",
+      "total_matches": "2",
+      "win": "1",
+      "lose": "1",
+      "pts": "5",
+      "nrr": "+7.00"
+    },
+    {
+      "tournament_id": 2,
+      "team_name": "Australia",
+      "position": "3rd",
+      "total_matches": "1",
+      "win": "0",
+      "lose": "1",
+      "pts": "0",
+      "nrr": "+2.00"
+    },
+    {
+      "tournament_id": 2,
+      "team_name": "South Africa",
+      "position": "4th",
+      "total_matches": "1",
+      "win": "0",
+      "lose": "1",
+      "pts": "0",
+      "nrr": "+1.00"
+    }
+  ]
+}
